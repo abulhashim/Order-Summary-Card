@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --VeryPaleBlue: hsl(225, 100%, 98%);
+  --DesaturatedBlue: hsl(224, 23%, 55%);
+  --DarkBlue: hsl(223, 47%, 23%);
+  --PaleBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+  --CardShadow: rgba(13, 48, 189, 0.151826);
+  --BtnShadow: rgba(56, 42, 225, 0.190291);
+  --LightBrightBlue: rgb(115, 114, 233);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(images/pattern-background-desktop.svg);
+  background-color: var(--PaleBlue);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: var(--DesaturatedBlue);
+  line-height: 1.35rem;
+}
+
+h2,
+h3 {
+  color: var(--DarkBlue);
+  font-weight: 900;
+}
+
+h3,
+p {
+  font-size: 0.9rem;
+}
+
+.wrapper {
+  background-color: #fff;
+  max-width: 25rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 40px 40px -20px var(--CardShadow);
+}
+
+.main-img {
+  max-width: 100%;
+}
+
+.content-container {
+  font-family: "Red Hat Display", sans-serif;
+  padding: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.price-box {
+  background-color: var(--VeryPaleBlue);
+  border-radius: 0.5rem;
+  padding: 1.3rem;
+}
+
+.music-icon {
+  width: 15%;
+  margin-right: 1rem;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+}
+
+[class|="btn"] {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.btn-forChange {
+  margin-left: auto;
+}
+
+.btn-forChange:hover {
+  text-decoration: none;
+  color: var(--LightBrightBlue);
+}
+
+.btn-forPay {
+  background-color: var(--BrightBlue);
+  box-shadow: 0px 20px 20px var(--BtnShadow);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-forPay:hover {
+  background-color: var(--LightBrightBlue);
+}
+
+.btn-forCancel {
+  text-decoration: none;
+  color: var(--DesaturatedBlue);
+}
+
+.btn-forCancel:hover {
+  color: var(--DarkBlue);
+}
+
+@media screen and (max-width: 395px) {
+  body {
+    background: url(images/pattern-background-mobile.svg);
+    background-color: var(--PaleBlue);
+    background-repeat: no-repeat;
+  }
+
+  .wrapper {
+    max-width: 22rem;
+  }
+}
