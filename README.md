@@ -10,7 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/..-](https://www.frontendmentor.io/solutions/..)
+- Solution URL: [frontendmentor.io/solutions/order-summary-card-](https://www.frontendmentor.io/solutions/order-summary-card-ftbD_wC9_D)
 - Live Site URL: [abulhashim.github.io/Oder-Summary-Component/](https://abulhashim.github.io/Order-Summary-Component/)
 
 ## My process

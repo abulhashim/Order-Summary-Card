@@ -32,20 +32,20 @@ p {
   line-height: 1.35rem;
 }
 
-h2,
-h3 {
+h1,
+h2 {
   color: var(--DarkBlue);
   font-weight: 900;
 }
 
-h3,
+h2,
 p {
   font-size: 0.9rem;
 }
 
 .wrapper {
   background-color: #fff;
-  max-width: 25rem;
+  max-width: 27rem;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0px 40px 40px -20px var(--CardShadow);
@@ -87,6 +87,7 @@ p {
 
 .btn-forChange {
   margin-left: auto;
+  color: var(--BrightBlue);
 }
 
 .btn-forChange:hover {
