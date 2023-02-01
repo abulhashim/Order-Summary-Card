@@ -45,7 +45,8 @@ p {
 
 .wrapper {
   background-color: #fff;
-  max-width: 27rem;
+  max-width: 25rem;
+  min-height: 40rem;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0px 40px 40px -20px var(--CardShadow);
@@ -61,7 +62,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .price-box {
